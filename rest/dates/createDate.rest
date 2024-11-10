@@ -1,0 +1,10 @@
+POST http://localhost:4000/date/createDate
+content-type: application/json
+
+{
+    "paymentDay":"2024-09-05", 
+    "fixedExpensesDay":"2024-09-05", 
+    "variableExpensesDay":"", 
+    "userId":"8", 
+    "financeId":"7"
+}

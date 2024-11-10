@@ -1,0 +1,10 @@
+PUT http://localhost:4000/finances/updateFinance
+content-type: application/json
+
+{
+    "income": "14000000",
+    "fixedExpenses": "400000", 
+    "variableExpenses": "200000", 
+    "savingsPlan": "150000",
+    "id":"5"
+}

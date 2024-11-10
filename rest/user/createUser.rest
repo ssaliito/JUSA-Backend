@@ -1,0 +1,12 @@
+POST http://localhost:4000/auth/createUser
+content-type: application/json
+
+{
+    "name": "Marina tiene ",
+    "userName": "harinamarina", 
+    "keyword": "HOlaCoMOEstA", 
+    "rol": "Usuario", 
+    "email": "marinita@gmail.com", 
+    "state": "Activo", 
+    "phoneNumber": "3154098764"
+}

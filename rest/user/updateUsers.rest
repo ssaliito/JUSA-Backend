@@ -1,0 +1,13 @@
+PUT http://localhost:4000/auth/updateUser
+content-type: application/json
+
+{
+    "name": "Camilo 242g4", 
+    "userName":"ayyonosedepoesia", 
+    "keyword": "62387617845", 
+    "rol":"Usuario", 
+    "email":"yonoseee@gmail.com", 
+    "state":"Activo", 
+    "phoneNumber":"3462547385", 
+    "id":"5"
+}
